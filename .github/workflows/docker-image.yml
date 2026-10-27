@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag cortes1443/express-arq:latest
       
     - name: Docker Push
-      run: docker push cortes1443/express-arq
+      run: docker push jcortes1443/randomquotes
